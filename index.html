@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEPKIDS_</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/64bf21a094cf5d49dc66320d/1h659mn06';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+</head>
+
+<body>
+  <div>
+    <!-- <div class="border-box fixed bg-pink-700">
+              <h1 class="text-xs text-white p-1 text-center">Welcome to HEPKIDS Coding Summer Class. <a href="/dist/create.html" class="hover:underline">Enroll for Free</a>
+              </h1>
+          </div> -->
+    <nav class="p-5 bg-orange-500 z-10 relative  w-full    shadow md:flex md:items-center md:justify-around">
+      <div class="flex justify-between items-center ">
+        <span class="text-2xl  cursor-pointer">
+          <h1
+            class="text-pink-600 font-serif font-extrabold bg-clip-text text-transparent bg-gradient-to-r flex items-center flex-shrink-0 from-orange-700 via-lime-500 to-black text-4xl">
+            HEPKIDS_</h1>
+
+        </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon name="menu" class="text-slate-200" onclick="Menu(this)"></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static  w-full left-0 md:w-auto md:py-0 py-4 md:pl-0  pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#home"
+            class="text-slate-300  bg-slate-700  px-4 py-3 hover:transition-all duration-9000 ease-in-out">Home</a>
+        </li>
+
+        <li class="mx-4 go my-6 md:my-0">
+          <a href="#curriculum"
+            class="text-slate-300  bg-slate-700   px-4 py-3 black hover:transition-all duration-9000 ease-in-out">Curriculum</a>
+        </li>
+
+
+
+
+        <div class="group relative">
+          <li><a href="#"
+              class="text-slate-300 bg-slate-700  px-4 py-3 lg:text-1xl hover:py-3">About</a>
+          </li>
+          <ul
+            class="absolute bg-slate-800 border border-2 flex flex-col gap- border-slate-600  text-start hidden h-24  w-80  group-hover:block">
+            <li><a href="/faq.html" class="text-slate-200 hover:text-yellow-400">Faq</a></li>
+            <li class=""><a href="/story.html" class="text-slate-200 hover:text-orange-400">Our Story
+              </a></li>
+            <li><a href="https://stephen01.hashnode.dev/" class="text-slate-200  hover:text-lime-400">Blog</a></li>
+          </ul>
+        </div>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="/contact.html"
+            class="text-slate-200 py-3 px-3 bg-slate-700 ">Contact</a>
+        </li>
+
+
+
+
+        <div class="block">
+<!-- 
+          <a href="/login.html"
+            class="text-slate-300text-center  duration-500 text-lg hover:underline px-4  py-3 text-slate-300 rounded">Login</a> -->
+
+
+          <a href="https://forms.gle/Z7Qk7XmaHJp6KEza7"
+            class=" text-slate-200 text-lg  duration-500 px-6 py-2 bg-sla ">Enroll Now</a>
+
+        </div>
+        <h2 class=""></h2>
+      </ul>
+
+    </nav>
+    <!-- <div class="border-box bg-pink-700">
+      <h1 class="text-xs text-white p-1 text-center">Welcome to HEPKIDS Coding Summer Class. <a href="/signup.html" class="hover:underline">Enroll for Free</a>
+      </h1>
+  </div> -->
+
+
+
+  </div>
+
+
+  <section id="home" class="bg-image" >
+    <div class="pt-36 md:px-1 md:pt-36 md:max-w-7xl text-center md:text-2xl xl:max-w-max h-full  z-10 font-bold font-mono">
+      <div class="bg-overlay"></div>
+      <blockquote data-aos="fade-up" data-aos-duration="1000" class=" leading-relaxed font-extrabold relative text-2xl md:text-4xl   md:my-5 text-white">
+        ONLINE
+        <span
+          class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-orange-400 relative inline-block">
+          <span class="relative text-2xl text-black">CODING</span>
+        </span>
+        CLASSES FOR KIDS AND TEENS
+      </blockquote>
+      <p class="md:my-5 mt-10 md:mx-36  md:text-2xl relative text-white" data-aos="fade-down" data-aos-duration="1000">HepKids_ delivers the most fun and effective
+        live, online coding classes for kids and
+        teens ages 4-17. Our coding classes are designed to give kids the programming knowledge, skills, and
+        confidence to thrive in a digital world.
+      <div class="mt-2 pb-10   relative"><button
+          class="bg-orange-400 hover:text-yellow-200 hover\:bg-transparent hover:border hover:border-2 hover:border-yellow-400 text-slate-200 py-2 px-4 sm:px-6 sm:py-4  sm:mt-10"><a
+            href="https://forms.gle/Z7Qk7XmaHJp6KEza7">Enroll
+            Now</a></button>
+        <!-- <button
+          class="border  group border-1 py-2 px-3 sm:px-2 sm:py-4 text-orange-400 border-pink-600 hover:bg-pink-600 hover:border-none hover:text-white">
+          <a href="/signup.html">Join Waitlist </a><i
+            class="fas fa-caret-right ml-2 text-end group-hover:text-white  text-pink-600 text-1xl"></i></button> -->
+      </div>
+      </p>
+      <!-- <div class="mt-14 mb-10 lg:mb-20 relative"><button
+                      class="bg-pink-600  hover:bg-transparent  hover:text-pink-600 hover:border hover:border-1 hover:border-pink-600 text-white py-2 px-4 sm:px-6 sm:py-4  sm:mt-10"><a href="/signup.html">Enroll
+                      Now</a></button>
+                  <button
+                      class="border  group border-1 py-2 px-3 sm:px-2 sm:py-4 text-pink-600 border-pink-600 hover:bg-pink-600 hover:border-none hover:text-white">
+                      <a href="/signup.html">Join Waitlist </a><i
+                          class="fas fa-caret-right ml-2 text-end group-hover:text-white  text-pink-600 text-1xl"></i></button>
+              </div> -->
+    </div>
+  </section>
+
+
+
+  <section class="second-section mt5 relative">
+
+    <div class="div1__container  bg-orange-500">
+      <div class="div1--cont">
+      <div class="first--div" data-aos="zoom-out" data-aos-duration="1000">
+        <div><img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/star.svg" height="93px" width="69px" />
+        </div>
+        <div class="div-div">
+          <h2 class="div--h2">100<span class="h2--span">'s</span></h2>
+          <h4 class="div--h4">OF SATISFIED<br> STUDENTS</h4>
+        </div>
+      </div>
+      <div class="first--div" data-aos="zoom-out" data-aos-duration="1000">
+        <div><img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/prize.svg" height="93px" width="98px" />
+        </div>
+        <div class="div-div">
+          <h2 class="div--h2">93<span class="h2--span">%</span</h2>
+              <h4 class="div--h4">STUDENT<br>
+                SUCCESS RATE</h4>
+        </div>
+      </div>
+
+      <div class="first--div" data-aos="zoom-out" data-aos-duration="1000">
+        <div class="div--img"><img src="	https://www.codewizardshq.com/wp-content/uploads/2019/10/up.svg" width="94px"
+            height="93px" class="img-div" /></div>
+        <div class="div-div">
+          <h2 class="div--h2">15<span class="h2--span">YRS</span></h2>
+          <h4 class="div--h4"> LEADING ONLINE<br>
+            CODING EDUCATION</h4>
+        </div>
+      </div>
+
+      <div class="first--div" data-aos="zoom-out" data-aos-duration="1000">
+        <div><img src="	https://www.codewizardshq.com/wp-content/uploads/2019/10/hand.svg" width="97px" height="93px" />
+        </div>
+        <div class="div-div">
+          <h2 class="div--h2">4.8<span class="h2--span">/5.0</span></h2>
+          <h4 class="div--h4"> RATING FROM<br>
+            PARENTS</h4>
+        </div>
+      </div>
+</div>
+    </div>
+
+
+    <section>
+      <div class="max-w-md p-5 md:p-20 mx-auto bg-white rounded-xl shadow-2xl overflow-hidden md:max-w-6xl">
+        <div class="md:flex">
+          <div class="md:shrink-0 md:max-w-7xl">
+            <img class="h-48 w-full object-center md:h-full md:w-" src="http://127.0.0.1:5502/assets/Rectangle%2017.png" alt="Modern building architecture">
+          </div>
+          <div class="p-5 md:16">
+            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+            <a href="#" class="block mt-1 text-4xl md:text-5xl leading-tight font-medium text-black">Kids love hepkids! So do teachers and parents!</a>
+            <p class="mt-2 text-lg md:text-2xl text-slate-500">Hepkids is used by millions of kids all around the world. Check out some of the fun ways people are using Hepkids today!</p>
+          <button class="bg-orange-500 p-3 rounded mt-5 rounded-pill"><a href="">
+            Enroll Now
+          </a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-16">
+      <h1 class="text-center text-4xl  mb-10  ">CODING WITH <span
+          class="md:text-7xl text-5xl sm:text-5xl font-extrabold text-yellow-400" >K</span><span
+          class="md:text-7xl  text-5xl sm:text-5xl font-extrabold text-orange-500" >I</span><span
+          class="md:text-7xl text-5xl sm:text-5xl font-extrabold text-blue-600" >D</span><span
+          class="md:text-7xl text-5xl sm:text-5xl font-extrabold text-red-600" >S</span> PROGRAM</h1>
+      <div class="container mx-auto p-4">
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
+          <div class="aspect-w-16 aspect-h-9"data-aos="fade-left" data-aos-duration="1000">
+            <iframe src="https://www.youtube.com/embed/j-3eArinB7E" class="w-full h-80" frameborder="0"
+              allowfullscreen></iframe>
+          </div>
+          <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="1000">
+            <iframe src="https://www.youtube.com/embed/RmbFJq2jADY" class="w-full h-80" frameborder="0"
+              allowfullscreen></iframe>
+          </div>
+          <div class="aspect-w-16 aspect-h-9" data-aos="zoom-out" data-aos-duration="1000">
+            <iframe src="https://www.youtube.com/embed/JcOcxKWgnps" class="w-full h-80" frameborder="0"
+              allowfullscreen></iframe>
+          </div>
+          <div class="aspect-w-19 aspect-h-9" data-aos="fade-left" data-aos-duration="1000">
+            <iframe src="https://www.youtube.com/embed/y5bXW_gEJl8" class="w-full h-80" frameborder="0"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+
+    <h2 class="grid--h2 relative text-5xl">Teaching Philosophy</h2>
+    <div class="div-2__container  mx-auto bg-white rounded-2xl shadow-lg p-20">
+      <div class="div2__container flex__container" data-aos="zoom-out" data-aos-duration="1000">
+        <div class="flex--cont">
+        <div class="grid1__div flex__div1" >
+          <img
+            src="https://d3t4xfu733v2tb.cloudfront.net/web/home/homepage/teaching-philosophy/continuous-curriculum.png"
+            width="120px " style="margin: 0 auto;" height="120px" alt="icon" />
+
+          <h3 class="flex__h3">PROGRESSIVE <br class="hidden"> CURRICULUM</h3>
+          <div class="small--line"></div>
+          <p class="flex__p">All of Coding with Kids curriculum is<br> designed to grow with our students.<br> We have
+            two main tracks: Our<br> flagship classes climb up the<br> <span class="bold--text">Coder's ladder®</span>.
+            Enrichment<br> classes and camps follow <span class="bold--text">Coder's<br> Pathways®</span>.</p>
+
+        </div>
+
+        <div class="grid1__div flex__div1">
+          <img src="https://d3t4xfu733v2tb.cloudfront.net/web/home/homepage/teaching-philosophy/skills-first.png"
+            width="120px" style="margin: 0 auto" ; alt="icon" />
+
+          <h3 class="flex__h3">SKILLS FIRST,<br class="hidden"> TOOLS SECOND</h3>
+          <div class="small--line"></div>
+          <p class="flex__p"><span class="bold--text">Great programmers know how to<br> write great code.</span></p>
+          <p class="flex__p">We focus on teaching coding skills<br> and introduce students to different<br> programming
+            languages<br> appropriate for their age and <br> experience level.</p>
+        </div>
+
+        <div class="grid1__div flex__div1">
+          <img src="https://d3t4xfu733v2tb.cloudfront.net/web/home/homepage/teaching-philosophy/project-focused.png"
+            style="margin: 0 auto" ; width="120px" height="120px" alt="icon" />
+          <h3 class="flex__h3">PROJECT <br class="hidden"> FOCUSED</h3>
+          <div class="small--line"></div>
+          <p class="flex__p"><span class="bold--text">No boring theory lectures!</span></p>
+          <p class="flex__p">Kids and teens are introduced to<br> coding concepts as they build<br> projects, from
+            Scratch games to<br> web applications.</p>
+        </div>
+
+        <div class="grid1__div flex__div1">
+          <img
+            src="https://d3t4xfu733v2tb.cloudfront.net/web/home/homepage/teaching-philosophy/individualized-approach.png"
+            style="margin: 0 auto" ; width="120px" height="120px" alt="icon" />
+          <h3 class="flex__h3">INDIVIDUALIZED <br class="hidden"> APPROACH</h3>
+          <div class="small--line"></div>
+          <p class="flex__p">We recognize that each child learns<br> differently. Our curriculum allows<br> students to
+            <span class="bold--text">advance at their own<br> pace</span>. Our goal is that no one is left<br> in the
+            dust and no one is bored by<br> slow progress.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- CURRICULUM -->
+    <span>
+      <h1  id="curriculum" class="text-center bg-blend-overlay font-extrabold text-4xl">CURRICULUM</h1>
+    </span>
+
+    <div class="curriculum__div">
+
+      <div class="curri--div--1 first-curri" data-aos="zoom-in" data-aos-duration="1000">
+
+        <div class="div--i">
+          <div>
+            <h3 class="curri--h3">Ages <span class="age-color">4-5</span></h3>
+          </div>
+          <!-- <div><h4 class="curri--h4">Select</h4></div> -->
+        </div>
+
+        <div class="div--ii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-1.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="green--text">LEVEL I</span></h3>
+          </div>
+
+          <div class="hepkids__1__div">
+            <p class="hepkids--1--p">Animation and Games with<br> Scratch</p>
+            <p class="hepkids--1--p">Logic with Scratch</p>
+            <p class="hepkids--1--p">Intro to Text-Based <br>programming</p>
+            <p class="hepkids--1--p"><span class="green--text">Capstone I</span></p>
+          </div>
+        </div>
+
+        <div class="div--iii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-2.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="light--blue--text">LEVEL
+                II</span></h3>
+          </div>
+
+          <div class="hepkids__2__div">
+            <p class="hepkids--2--p">Programming Fundamentals<br> with Python</p>
+            <p class="hepkids--2--p">Logic with Python</p>
+            <p class="hepkids--2--p">Modular Programming with<br> Python</p>
+            <p class="hepkids--2--p"><span class="light--blue--text">Capstone II</span></p>
+          </div>
+        </div>
+
+        <div class="div-iv">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-3.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="purple--text">LEVEL III</span>
+            </h3>
+          </div>
+
+          <div class="hepkids__3__div">
+            <p class="hepkids--3--p">Creating Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Responsive Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Responsive Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Interactive Websites with<br> JavaScript</p>
+            <p class="hepkids--3--p"><span class="purple--text">Capstone III</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="curri--div--1 first-curri" data-aos="zoom-in" data-aos-duration="1000">
+
+        <div class="div--i">
+          <div>
+            <h3 class="curri--h3">Ages <span class="age-color">6-7</span></h3>
+          </div>
+          <!-- <div><h4 class="curri--h4">Select</h4></div> -->
+        </div>
+
+        <div class="div--ii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-1.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="green--text">LEVEL I</span></h3>
+          </div>
+
+          <div class="hepkids__1__div">
+            <p class="hepkids--1--p">Animation and Games with<br> Scratch</p>
+            <p class="hepkids--1--p">Logic with Scratch</p>
+            <p class="hepkids--1--p">Intro to Text-Based <br>programming</p>
+            <p class="hepkids--1--p"><span class="green--text">Capstone I</span></p>
+          </div>
+        </div>
+
+        <div class="div--iii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-2.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="light--blue--text">LEVEL
+                II</span></h3>
+          </div>
+
+          <div class="hepkids__2__div">
+            <p class="hepkids--2--p">Programming Fundamentals<br> with Python</p>
+            <p class="hepkids--2--p">Logic with Python</p>
+            <p class="hepkids--2--p">Modular Programming with<br> Python</p>
+            <p class="hepkids--2--p"><span class="light--blue--text">Capstone II</span></p>
+          </div>
+        </div>
+
+        <div class="div-iv">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-3.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="purple--text">LEVEL III</span>
+            </h3>
+          </div>
+
+          <div class="hepkids__3__div">
+            <p class="hepkids--3--p">Creating Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Responsive Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Responsive Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Interactive Websites with<br> JavaScript</p>
+            <p class="hepkids--3--p"><span class="purple--text">Capstone III</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="curri--div--1 first-curri" data-aos="zoom-in" data-aos-duration="1000">
+
+        <div class="div--i">
+          <div>
+            <h3 class="curri--h3">Ages <span class="age-color">8-12</span></h3>
+          </div>
+          <!-- <div><h4 class="curri--h4">Select</h4></div> -->
+        </div>
+
+        <div class="div--ii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-1.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="green--text">LEVEL I</span></h3>
+          </div>
+
+          <div class="hepkids__1__div">
+            <p class="hepkids--1--p">Animation and Games with<br> Scratch</p>
+            <p class="hepkids--1--p">Logic with Scratch</p>
+            <p class="hepkids--1--p">Intro to Text-Based <br>programming</p>
+            <p class="hepkids--1--p"><span class="green--text">Capstone I</span></p>
+          </div>
+        </div>
+
+        <div class="div--iii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-2.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="light--blue--text">LEVEL
+                II</span></h3>
+          </div>
+
+          <div class="hepkids__2__div">
+            <p class="hepkids--2--p">Programming Fundamentals<br> with Python</p>
+            <p class="hepkids--2--p">Logic with Python</p>
+            <p class="hepkids--2--p">Modular Programming with<br> Python</p>
+            <p class="hepkids--2--p"><span class="light--blue--text">Capstone II</span></p>
+          </div>
+        </div>
+
+        <div class="div-iv">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-3.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="purple--text">LEVEL III</span>
+            </h3>
+          </div>
+
+          <div class="hepkids__3__div">
+            <p class="hepkids--3--p">Creating Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Responsive Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Responsive Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Interactive Websites with<br> JavaScript</p>
+            <p class="hepkids--3--p"><span class="purple--text">Capstone III</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="curri--div--1 first-curri" data-aos="zoom-in" data-aos-duration="1000">
+
+        <div class="div--i">
+          <div>
+            <h3 class="curri--h3">Ages <span class="age-color">13-17</span></h3>
+          </div>
+          <!-- <div><h4 class="curri--h4">Select</h4></div> -->
+        </div>
+
+        <div class="div--ii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-1.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="green--text">LEVEL I</span></h3>
+          </div>
+
+          <div class="hepkids__1__div">
+            <p class="hepkids--1--p">Animation and Games with<br> Scratch</p>
+            <p class="hepkids--1--p">Logic with Scratch</p>
+            <p class="hepkids--1--p">Intro to Text-Based <br>programming</p>
+            <p class="hepkids--1--p"><span class="green--text">Capstone I</span></p>
+          </div>
+        </div>
+
+        <div class="div--iii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-2.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="light--blue--text">LEVEL
+                II</span></h3>
+          </div>
+
+          <div class="hepkids__2__div">
+            <p class="hepkids--2--p">Programming Fundamentals<br> with Python</p>
+            <p class="hepkids--2--p">Logic with Python</p>
+            <p class="hepkids--2--p">Modular Programming with<br> Python</p>
+            <p class="hepkids--2--p"><span class="light--blue--text">Capstone II</span></p>
+          </div>
+        </div>
+
+        <div class="div-iv">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-3.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="purple--text">LEVEL III</span>
+            </h3>
+          </div>
+
+          <div class="hepkids__3__div">
+            <p class="hepkids--3--p">Creating Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Responsive Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Responsive Websites with<br> HTML/CSS</p>
+            <p class="hepkids--3--p">Interactive Websites with<br> JavaScript</p>
+            <p class="hepkids--3--p"><span class="purple--text">Capstone III</span></p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 2 -->
+      <!-- <div class="curri--div--1 second-curri">
+
+        <div class="div--i">
+          <div>
+            <h3 class="curri--h3">Ages <span class="age-color">6-7</span></h3>
+          </div>
+        </div>
+
+        <div class="div--ii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-1.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="green--text">LEVEL I</span></h3>
+          </div>
+
+          <div class="hepkids__1__div">
+            <p class="hepkids--1--p">Intro to Programming with<br>Python</p>
+            <p class="hepkids--1--p">Beyond Basics with Python</p>
+            <p class="hepkids--1--p">Webpages with HTML & CSS</p>
+            <p class="hepkids--1--p"><span class="green--text">Capstone I</span></p>
+          </div>
+        </div>
+
+        <div class="div--iii">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-2.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="light--blue--text">LEVEL
+                II</span></h3>
+          </div>
+
+          <div class="hepkids__2__div">
+            <p class="hepkids--2--p">Responsive Web Development</p>
+            <p class="hepkids--2--p">Interactive JavaScript</p>
+            <p class="hepkids--2--p">Web Interfaces</p>
+            <p class="hepkids--2--p"><span class="light--blue--text">Capstone II</span></p>
+          </div>
+        </div>
+
+        <div class="div-iv">
+          <div class="h3--img">
+            <img src="https://www.codewizardshq.com/wp-content/uploads/2019/10/level-3.svg" width="32px"
+              height="43px" />
+            <h3 class="div-ii-h2"><span class="blue--text">HEPKIDS</span> <span class="purple--text">LEVEL III</span>
+            </h3>
+          </div>
+
+          <div class="hepkids__3__div">
+            <p class="hepkids--3--p">Intro to Databases</p>
+            <p class="hepkids--3--p">Mastering APIs</p>
+            <p class="hepkids--3--p">Mastering Databases</p>
+            <p class="hepkids--3--p"><span class="purple--text">Capstone III</span></p>
+          </div>
+        </div>
+      </div>
+ -->
+
+    <!-- </div> -->
+
+    </div>
+
+    <!-- COMMITMENT -->
+
+    <!-- <div class="commitment__div" data-aos="fade-down" data-aos-duration="1000">
+      <div class="commit__div">
+        <h2 class="commit--h2 text-black text-4xl font-extrabold">COMMITMENT TO QUALITY</h2>
+
+        <p class="commit--p">It is essential that every one of our students has an excellent experience in our classes.
+          The quality of our classes and the satisfaction of our students is always our top consideration.</p>
+
+        <h3 class="commit--h3 text-yellow-300 bg-black w-96 mx-auto">TOGETHER, we make that happen!!!</h3>
+        <p class="commit--p commit--p2">We take many steps to make our classes great for students but know that not
+          everything goes 100%. Should your experience in our classes be anything less than fabulous, please reach out
+          to us right away! We will work with you to adapt the class to your student’s needs or to find them a different
+          class to provide the best experience.</p>
+
+        <button class="commit-btn border-0 text-black border border-b-8 border-transparent bg-yellow-400"><a href="/contact.html" class="text-black">Reach Out To Us</a></button>
+
+        <div class="commit__div2">
+          <div>
+            <img src="/assets/seal-2.png" width="200px" height="160px" alt="icon" />
+          </div>
+
+          <div class="commit__div2__p">
+            <p class="comit-p-2 first--p">Some of the things we do to make our classes the best:</p>
+            <p class="commit-p-2"><span class="commit-bold-text">INSTRUCTORS :</span> Great teachers make all the
+              difference. That’s why we invest a lot of time into carefully selecting and training our instructors. We
+              also provide continued coaching based on class observations and your feedback.
+            </p>
+            <p class="commit-p-2">
+              <span class="commit-bold-text">PROGRAMS :</span> Coding with Kids’ programs have been designed by Computer
+              Science experts. We also continuously improve and expand our curriculum based on feedback from our
+              instructors and students.
+            </p>
+            <p class="commit-p-2">
+              <span class="commit-bold-text">CONTINUOUS IMPROVEMENTS :</span> We are always looking to improve all
+              aspects of your experience at Coding with Kids. Whether it is raising the bar for our classes or
+              automating parts of our internal processes to make sure we never miss a beat, we want to give you the best
+              experience in coding.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div> -->
+    <!-- <blockquote class=" leading-relaxed text-center font-extrabold sm:text-4xl  my-5 ">
+      Get
+      <span
+        class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-orange-500 relative inline-block">
+        <span class="relative sm:text-3xl text-slate-100">Latest Updates</span>
+      </span>
+      On Our Programs
+    </blockquote>
+    <div class="container mx-auto py-10" data-aos="fade-right" data-aos-duration="1000">
+      <div class="max-w-md mx-auto bg-white p-8 border border-gray-300 rounded shadow">
+        <h2 class="text-2xl font-semibold mb-4">Subscribe to Our Page</h2>
+        <form action="https://formspree.io/f/xoqzgdjk" method="post">
+          <label for="email" class="block mb-2 font-medium">First Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your first name" required
+            class="w-full px-4 py-2 border border-gray-300 rounded">
+          <label for="email" class="block mb-2 font-medium">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required
+            class="w-full px-4 py-2 border border-gray-300 rounded">
+
+
+          <button type="submit"
+            class="w-full mt-4 px-4 py-2 bg-orange-600 text-white font-semibold rounded hover:bg-orange-700 focus:outline-none focus:bg-orange-600">Subscribe</button>
+        </form>
+      </div>
+    </div> -->
+
+
+    <!-- FOOTER  -->
+
+
+
+    <div class="max-w-md p-20 mx-auto bg-white rounded-xl shadow-2xl overflow-hidden md:max-w-6xl">
+      <div class="md:flex">
+        <div class="md:shrink-0 md:max-w-7xl">
+          <img class="h-48 w-full object-center md:h-full md:w-" src="http://127.0.0.1:5502/assets/Rectangle%2017.png" alt="Modern building architecture">
+        </div>
+        <div class="p-8">
+          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+          <a href="#" class="block mt-1 text-5xl leading-tight font-medium text-black">Kids love hepkids! So do teachers and parents!</a>
+          <p class="mt-2 text-2xl text-slate-500">Hepkids is used by millions of kids all around the world. Check out some of the fun ways people are using Hepkids today!</p>
+        <button class="bg-orange-500 p-3 rounded mt-5 rounded-pill"><a href="">
+          Enroll Now
+        </a></button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <footer class="footer__section bg-blend-burn">
+
+      <div class="footer--div">
+        <span class="text-2xl font-[Poppins] cursor-pointer">
+          <h1
+            class=" font-serif font-extrabold bg-clip-text text-transparent bg-gradient-to-r flex items-center flex-shrink-0 from-orange-800  via-lime-500 to-yellow-800 text-4xl">
+            HEPKIDS_</h1>
+
+        </span>
+        <div class="footer--div--1" data-aos="zoom-in" data-aos-duration="1000">
+          <p><a href="#">Programs</a></p>
+          <p><a href="#">Summer Programs</a></p>
+          <p><a href="#">Homeschool</a></p>
+          <p><a href="#">After School Program</a></p>
+          <p><a href="#">Pricing</a></p>
+          <p><a href="#">Blog</a></p>
+          <p><a href="#">Calendar</a></p>
+        </div>
+
+        <div class="footer--div--2" data-aos="zoom-in" data-aos-duration="1000">
+          <p><a href="story.html">About</a></p>
+          <p><a href="#">Scholarships</a></p>
+          <p><a href="#">Military</a></p>
+          <p><a href="#">Affiliate Program</a></p>
+          <p><a href="#">Jobs</a></p>
+          <p><a href="#">Subscribe</a></p>
+          <p><a href="#">Referral Program</a></p>
+        </div>
+
+        <div class="footer--div--3" data-aos="zoom-in" data-aos-duration="1000">
+          <p><a href="#">Student Center</a></p>
+          <p><a href="#">Reviews</a></p>
+          <p><a href="#">FAQs</a></p>
+          <p><a href="#">Contact Us</a></p>
+          <p><a href="#">Enroll</a></p>
+        </div>
+
+        <div class="footer--div--4" data-aos="zoom-in" data-aos-duration="1000">
+          <p class="text--bold">Mailing Address:</p>
+          <p>11900 Jollyville Rd,</p>
+          <p>#203278</p>
+          <p>Austin, Texas, 78720</p>
+          <p class="text--bold tel-phone">1-800-213-2417</p>
+          <p>Monday - Friday</p>
+          <p>9:00am - 5:00pm CT</p>
+        </div>
+
+      </div>
+      <div class="flex justify-between mt-5">
+        <div class="inline-flex gap-4">
+            <i class="bx bxl-twitter text-2xl text-orange-500  hover:text-slate-100" sty></i>
+            <i class="bx bxl-linkedin text-2xl   text-orange-500 hover:text-slate-200"></i>
+            <i class="bx bxl-instagram text-2xl  text-orange-500  hover:text-slate-200"></i>
+            <i class="bx bxl-pinterest text-2xl  text-orange-500 hover:text-slate-200"></i>
+            <i class="bx bxl-youtube text-2xl  text-orange-500 hover:text-slate-200"></i>
+            <i class="bx bxl-facebook text-2xl  text-orange-500 hover:text-slate-200"></i>
+        </div>
+    </div>
+      <div class="copy__right">
+        <P class="copy--right-p">Privacy Policy |</P>
+        <p class="copy--right-p">Terms of Service |</p>
+        <p class="copy--right-p">© Copyright 2019 </p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>   
+    <script src="/main.js"></script>
+    <script>
+      function Menu(e) {
+        let list = document.querySelector('ul');
+        let listi = document.querySelector('a');
+        e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+      }
+      // close the menu when an item is clicked
+      function closeMenu() {
+        let list = document.querySelector('a');
+        list.classList.remove('top-[80px]');
+        list.classList.remove('opacity-100');
+        let menu = document.querySelector('#menu');
+        menu.name = "menu";
+      }
+      menu.addEventListener('click', Menu);
+    </script>
+  </section>
+</body>
+
+</html>
