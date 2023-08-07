@@ -170,7 +170,7 @@ body{
   right: 0;
   bottom: 0;
   height:120% ;
-  background-color: rgba(4, 9, 9, 0.2); /* Adjust the last value (0.5) to control the darkness */
+  background-color: rgba(4, 9, 9, 0.); /* Adjust the last value (0.5) to control the darkness */
 }
 
 /* CURRICULUM */
