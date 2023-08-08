@@ -155,7 +155,7 @@ body{
 /* BACKGROUND */
 
 .bg-image {
-  background-image: url(/assets/img3.avif);
+  background-image: url(https://images.unsplash.com/photo-1534643960519-11ad79bc19df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nJTIwa2lkc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
   background-repeat: no-repeat;
   background-position: center;
   background-size:auto;
