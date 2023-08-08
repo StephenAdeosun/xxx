@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <style>
+.container{
+    margin:auto;
+max-width:70%;
+display: flex;
+gap: 20px;
+height: 80vh;
+background-color:  #FCECDC;
+border: none;
+/* font-family: 'Courier New', Courier, monospace; */
+font-family: Inter;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+box-shadow: 1px 2px 70px rgba(250, 173, 152, 1);
+border-radius: 4%;
+margin-top: 2em;
+}
+.formik h1{
+    text-align: left;
+    font-family: 'Holtwood One SC', serif;
+font-size: 140%;
+}
+.img1{
+flex: 1;
+}
+.img1 img{
+    height: 100%;
+}
+.formik{
+width: 100%;
+text-align: center;
+margin-top: 8%;
+flex: 1;
+}
+.formik input{
+    display: block;
+font-family: Inter;
+
+    width: 80%;
+    margin-bottom: 20px;
+    /* border: none; */
+    border: 1px solid #6A9FFF;
+    border-radius: 14px;
+    padding:16px 20px;
+    background: transparent;
+    outline:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+input::placeholder{
+    border-bottom:1px solid  #00000040;
+}
+.formik button a{
+   text-decoration: none;
+   font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: black;
+
+}
+.formik button{
+    width: 163px;
+height: 43px;
+top: 629px;
+left: 912px;
+border-radius: 20px;
+background: #00E9FF;
+border: none;
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img1">
+            <img src="/assets/Rectangle 29 (1).png" alt="">
+        </div>
+        <div>
+
+        </div><div class="formik">
+            <h1>
+                Enroll Now
+            </h1>
+            <form action="https://formspree.io/f/xoqzgdjk" method="POST">
+            <input type="text" placeholder="Enter your name" >
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit"><a href="">Enroll Now</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
